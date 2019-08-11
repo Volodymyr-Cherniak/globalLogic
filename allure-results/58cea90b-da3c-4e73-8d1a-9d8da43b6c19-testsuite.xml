@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565535737688' stop='1565535748864'>
+    <name>Design</name>
+    <title>Design</title>
+    <test-cases>
+        <test-case start='1565535737689' status='passed' stop='1565535747237'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565535737695' status='passed' stop='1565535747185'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='79d1533f-ab1c-4d23-816e-4a6ddb39b117-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565535747187' status='passed' stop='1565535747223'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c0e87b27-db04-45ec-89d2-3619d6418d5f-attachment.json'
+                                    type='application/json' size='52'/>
+                        <attachment title='Response' source='1caf8910-aca7-41c2-9aa7-96b6ea223eca-attachment.json'
+                                    type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565535747238' status='failed' stop='1565535748863'>
+            <name>button "Services" is apear</name>
+            <title>button "Services" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565535747239' status='passed' stop='1565535748817'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ddc3ee45-6d17-4ad8-bf53-d879576524a8-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565535748818' status='passed' stop='1565535748849'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0edd532c-fde3-4c73-90b0-c59cbe596470-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='098778b6-d3c0-41f1-be1f-6d19be555bf2-attachment.json'
+                                    type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected { Object (sessionId, elementId, ...) } to equal true</message>
+                <stack-trace>AssertionError: expected { Object (sessionId, elementId, ...) } to equal true
+                    at Context.equal
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:18:16)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

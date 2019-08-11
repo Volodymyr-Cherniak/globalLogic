@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565522807124' stop='1565522814983'>
+    <name>Client: Page Level</name>
+    <title>Client: Page Level</title>
+    <test-cases>
+        <test-case start='1565522807127' status='failed' stop='1565522814982'>
+            <name>Get title</name>
+            <title>Get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565522807138' status='passed' stop='1565522812959'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9a8f070e-0384-4627-8512-49f15c4ac35e-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565522812960' status='passed' stop='1565522812976'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='617e9bc4-3894-4f21-9303-a24fca72795e-attachment.json'
+                                    type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Інновації, орієнтовані на цифрові технології' == 'Digital Product Engineering Services'
+                </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Інновації, орієнтовані на цифрові технології' == 'Digital
+                    Product Engineering Services'
+                    at Context.&lt;anonymous>
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs\test.js:11:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565525004404' stop='1565525005907'>
+    <name>Client: Elements exist</name>
+    <title>Client: Elements exist</title>
+    <test-cases>
+        <test-case start='1565525004405' status='failed' stop='1565525005822'>
+            <name>Header</name>
+            <title>Header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565525004405' status='passed' stop='1565525005759'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4baa4827-8432-4311-997f-fc371ba57294-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565525005759' status='passed' stop='1565525005788'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='267ae515-e63f-42df-9f99-ecd0fee6ebe1-attachment.json'
+                                    type='application/json' size='96'/>
+                        <attachment title='Response' source='6323642b-f97d-44e3-bfd8-c5e9ab1e6285-attachment.json'
+                                    type='application/json' size='325'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565525005792' status='passed' stop='1565525005819'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d4b4cb0-938f-49c4-b2f1-eb475f5b9933-attachment.json'
+                                    type='application/json' size='96'/>
+                        <attachment title='Response' source='29d8fd8e-798d-4f80-a488-b4af3a7f45f0-attachment.json'
+                                    type='application/json' size='325'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:29:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565525005822' status='failed' stop='1565525005864'>
+            <name>App</name>
+            <title>App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565525005822' status='passed' stop='1565525005843'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='09bd50ff-f39b-4011-b3ea-23698c5425ab-attachment.json'
+                                    type='application/json' size='57'/>
+                        <attachment title='Response' source='e88cf342-26dd-4f97-a945-026282d212b7-attachment.json'
+                                    type='application/json' size='286'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565525005846' status='passed' stop='1565525005859'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='613390f7-5e57-4cf0-8865-1ead359c7492-attachment.json'
+                                    type='application/json' size='57'/>
+                        <attachment title='Response' source='ae34736c-272a-4ebf-aaa7-3de88e9200f6-attachment.json'
+                                    type='application/json' size='286'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:34:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565525005864' status='passed' stop='1565525005907'>
+            <name>Footer</name>
+            <title>Footer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565525005865' status='passed' stop='1565525005885'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47896254-c7cf-4855-a51d-2362a0c64e17-attachment.json'
+                                    type='application/json' size='58'/>
+                        <attachment title='Response' source='bcaa9a98-10bb-4b8f-8dbc-2b3764f0a8de-attachment.json'
+                                    type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565525005886' status='passed' stop='1565525005907'>
+                    <name>GET /session/:sessionId/element/0.5585063824354619-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.5585063824354619-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='4ab3aca9-16fc-4022-a503-bc7c1feaf5f5-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

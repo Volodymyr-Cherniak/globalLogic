@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565523751128' stop='1565523752754'>
+    <name>Client: Elements exist</name>
+    <title>Client: Elements exist</title>
+    <test-cases>
+        <test-case start='1565523751129' status='failed' stop='1565523752649'>
+            <name>Header</name>
+            <title>Header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565523751129' status='passed' stop='1565523752585'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='01cf2cac-2e31-4c51-90ac-d200804b8255-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523752585' status='passed' stop='1565523752621'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='41aa3463-a657-45fe-baf1-8182151df33d-attachment.json'
+                                    type='application/json' size='58'/>
+                        <attachment title='Response' source='22ae5d65-14b3-4ac0-8612-b266354bb072-attachment.json'
+                                    type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523752624' status='passed' stop='1565523752645'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8bd5e53c-4401-4c2f-8e59-4a20ddaf6111-attachment.json'
+                                    type='application/json' size='58'/>
+                        <attachment title='Response' source='8d233b40-0d25-497f-b0f7-7b25eb3223df-attachment.json'
+                                    type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>false == true</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:29:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565523752649' status='failed' stop='1565523752699'>
+            <name>App</name>
+            <title>App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565523752650' status='passed' stop='1565523752676'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a22177e5-a8c3-4f98-9200-37273f0e1de1-attachment.json'
+                                    type='application/json' size='57'/>
+                        <attachment title='Response' source='3acbcd4f-1df4-47fd-8c8b-96b6de00f861-attachment.json'
+                                    type='application/json' size='286'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523752681' status='passed' stop='1565523752697'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='de71050f-d4ad-48b2-9cfd-d41a7b9fbeee-attachment.json'
+                                    type='application/json' size='57'/>
+                        <attachment title='Response' source='db402056-9c44-40d3-a960-bc027d4125cd-attachment.json'
+                                    type='application/json' size='286'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>false == true</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:34:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565523752700' status='failed' stop='1565523752754'>
+            <name>Footer</name>
+            <title>Footer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565523752700' status='passed' stop='1565523752726'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ec6845d-77d6-4d47-8de3-9f395f7fc14f-attachment.json'
+                                    type='application/json' size='58'/>
+                        <attachment title='Response' source='b18f5dd7-c2c3-472b-9688-f83b7877d04e-attachment.json'
+                                    type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523752727' status='passed' stop='1565523752752'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b060f64d-58f6-48f4-b2b3-7568bc85b9f8-attachment.json'
+                                    type='application/json' size='58'/>
+                        <attachment title='Response' source='33b86e63-4e98-4f4c-9414-4e9f427ac7bd-attachment.json'
+                                    type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>false == true</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:39:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565541321287' stop='1565541328845'>
+    <name>werify CSS design btn "Services"</name>
+    <title>werify CSS design btn "Services"</title>
+    <test-cases>
+        <test-case start='1565541321288' status='passed' stop='1565541328844'>
+            <name>werify btn "Services" font</name>
+            <title>werify btn "Services" font</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565541321293' status='passed' stop='1565541328730'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c692ec17-eea6-4cca-81f5-acbfd82d286f-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565541328733' status='passed' stop='1565541328765'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='66a0fc2b-f4c8-42d3-9184-da4ed67594e2-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='cfbcf83d-f6bf-44b4-ac2d-f5c63e4b0b2c-attachment.json'
+                                    type='application/json' size='1145'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565541328819' status='passed' stop='1565541328841'>
+                    <name>GET /session/:sessionId/element/0.9845173767028248-1/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.9845173767028248-1/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='8661342a-3dd4-47e8-83e7-1c3ab198a8b2-attachment.json'
+                                    type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

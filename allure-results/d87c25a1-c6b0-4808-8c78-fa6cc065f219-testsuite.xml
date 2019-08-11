@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565540407346' stop='1565540415432'>
+    <name>werify btns</name>
+    <title>werify btns</title>
+    <test-cases>
+        <test-case start='1565540407346' status='broken' stop='1565540415431'>
+            <name>button linck is worked</name>
+            <title>button linck is worked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565540407347' status='passed' stop='1565540407364'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7a990bac-287c-4265-a63c-15980aeedc3c-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='b6405ee7-911d-4b48-95d5-27de61ba9513-attachment.json'
+                                    type='application/json' size='1122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565540415400' status='passed' stop='1565540415423'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='92d60a89-da6b-4744-98a8-4590cdbe110a-attachment.json'
+                                    type='application/json' size='61'/>
+                        <attachment title='Response' source='077d3f0c-c315-4e88-8abb-f1a136663ffe-attachment.json'
+                                    type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDisplayed' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayed' of undefined
+                    at Context.isDisplayed
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:41:27)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

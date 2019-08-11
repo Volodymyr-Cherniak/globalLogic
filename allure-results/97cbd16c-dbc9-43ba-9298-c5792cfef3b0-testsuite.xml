@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565523742897' stop='1565523751120'>
+    <name>Client: Page Level</name>
+    <title>Client: Page Level</title>
+    <test-cases>
+        <test-case start='1565523742898' status='failed' stop='1565523750592'>
+            <name>Get title</name>
+            <title>Get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565523742909' status='passed' stop='1565523750568'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='06d0de12-c3dc-49f0-9f84-a303b1f0bc64-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523750568' status='passed' stop='1565523750582'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='aebc03cc-07b1-41cc-aa7d-19b09f0a33da-attachment.json'
+                                    type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Інновації, орієнтовані на цифрові технології' == 'Bug Tracker'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Інновації, орієнтовані на цифрові технології' == 'Bug
+                    Tracker'
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:10:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565523750593' status='failed' stop='1565523751119'>
+            <name>Favicon</name>
+            <title>Favicon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565523750593' status='passed' stop='1565523751052'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5de328f7-73b3-4e03-80b9-7fa79b4155ce-attachment.json'
+                                    type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523751054' status='passed' stop='1565523751077'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e67d6e84-ec1d-469e-8f2c-d20c85bbe503-attachment.json'
+                                    type='application/json' size='47'/>
+                        <attachment title='Response' source='1c56ac0f-65f5-49f7-9b8b-217a5acd3182-attachment.json'
+                                    type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523751083' status='passed' stop='1565523751101'>
+                    <name>GET /session/:sessionId/element/0.10530301843835477-1/css/width</name>
+                    <title>GET /session/:sessionId/element/0.10530301843835477-1/css/width</title>
+                    <attachments>
+                        <attachment title='Response' source='b796bf91-48c1-4719-ad52-3fb557c6e198-attachment.json'
+                                    type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565523751102' status='passed' stop='1565523751118'>
+                    <name>GET /session/:sessionId/element/0.10530301843835477-1/css/height</name>
+                    <title>GET /session/:sessionId/element/0.10530301843835477-1/css/height</title>
+                    <attachments>
+                        <attachment title='Response' source='61d3f241-e956-4123-a794-be051ad9165f-attachment.json'
+                                    type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'32x32' == '256x256'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '32x32' == '256x256'
+                    at Context.equal (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/test.js:19:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565539679222' stop='1565539682932'>
+    <name>werify btns</name>
+    <title>werify btns</title>
+    <test-cases>
+        <test-case start='1565539679222' status='broken' stop='1565539682932'>
+            <name>button linck is worked</name>
+            <title>button linck is worked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565539679222' status='passed' stop='1565539680824'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='88a3cfe8-9612-4719-94b8-8fd75b060e05-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565539680825' status='passed' stop='1565539680850'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='88cd8738-95e1-46c0-8b2a-6e9a9b65fa7b-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='feaadd61-b709-44be-a778-387813ff46c1-attachment.json'
+                                    type='application/json' size='1218'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565539682887' status='passed' stop='1565539682922'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4a76d7a8-72f1-4e1e-8a00-1c17c2090766-attachment.json'
+                                    type='application/json' size='61'/>
+                        <attachment title='Response' source='aa8fd738-29b0-439f-b64f-78c40d90ecd2-attachment.json'
+                                    type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>btn2.isExisting is not a function</message>
+                <stack-trace>TypeError: btn2.isExisting is not a function
+                    at Context.isExisting
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:42:14)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565534374829' stop='1565534381767'>
+    <name>Design</name>
+    <title>Design</title>
+    <test-cases>
+        <test-case start='1565534374833' status='passed' stop='1565534381765'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565534374842' status='passed' stop='1565534381722'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7ce0ddf8-fce6-4f3d-aefb-163f881109f3-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565534381727' status='passed' stop='1565534381757'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3ce76df4-2aee-4c3f-a73d-d8dc6efcf6a1-attachment.json'
+                                    type='application/json' size='83'/>
+                        <attachment title='Response' source='fab32db9-a7f7-4f28-b6c1-8b07f196017d-attachment.json'
+                                    type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

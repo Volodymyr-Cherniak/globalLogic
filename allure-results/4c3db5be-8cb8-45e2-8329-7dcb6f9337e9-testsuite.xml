@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565522960687' stop='1565522966263'>
+    <name>Client: Page Level</name>
+    <title>Client: Page Level</title>
+    <test-cases>
+        <test-case start='1565522960690' status='failed' stop='1565522966262'>
+            <name>Get title</name>
+            <title>Get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565522960705' status='passed' stop='1565522964240'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c8ea264a-4e65-4077-ae17-96463b3880ae-attachment.json'
+                                    type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565522964241' status='passed' stop='1565522964257'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='458e5af7-6abf-4761-8c13-c34d6957219d-attachment.json'
+                                    type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Приєднуйтесь до топ ІТ-компанії України | GlobalLogic Ukraine' == 'Digital Product Engineering
+                    Services'
+                </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Приєднуйтесь до топ ІТ-компанії України | GlobalLogic
+                    Ukraine' == 'Digital Product Engineering Services'
+                    at Context.&lt;anonymous>
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs\test.js:11:20)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

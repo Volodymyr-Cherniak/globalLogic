@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565528166091' stop='1565528172902'>
+    <name>Design</name>
+    <title>Design</title>
+    <test-cases>
+        <test-case start='1565528166097' status='failed' stop='1565528172901'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565528166103' status='passed' stop='1565528172849'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b08323bc-c2ec-44d9-b5fd-3ac4d35826fd-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565528172851' status='passed' stop='1565528172883'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3b136a4c-a49d-4a76-aa79-af6b95f6b3a8-attachment.json'
+                                    type='application/json' size='61'/>
+                        <attachment title='Response' source='20916c36-1638-447e-9a50-082adae390cd-attachment.json'
+                                    type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected { Object (sessionId, elementId, ...) } to equal true</message>
+                <stack-trace>AssertionError: expected { Object (sessionId, elementId, ...) } to equal true
+                    at Context.equal
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:10:16)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565540991390' stop='1565540998502'>
+    <name>werify CSS design btn "Services"</name>
+    <title>werify CSS design btn "Services"</title>
+    <test-cases>
+        <test-case start='1565540991392' status='broken' stop='1565540998501'>
+            <name>werify btn "Services" font</name>
+            <title>werify btn "Services" font</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565540991403' status='passed' stop='1565540998407'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8e3fe022-2ef1-420d-ae7c-72910f8bde75-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565540998409' status='passed' stop='1565540998439'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='464b7cb8-54f6-4ccc-8247-cb626f1fc1b5-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='95d33788-1ba8-4380-9c59-4c6c482149a8-attachment.json'
+                                    type='application/json' size='1169'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "propertyName" parameter of command getElementCSSValue
+                    Expected: string
+                    Actual: undefined
+
+                    For more info see
+                    https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidelementidcsspropertyname
+                </message>
+                <stack-trace>Error: Malformed type for "propertyName" parameter of command getElementCSSValue
+                    Expected: string
+                    Actual: undefined
+                    For more info see
+                    https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidelementidcsspropertyname
+                    at Element.protocolCommand
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\webdriver\build\command.js:50:15)
+                    at Element.runCommand
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\wrapCommand.js:71:21)
+                    at Element.wrapCommandFn
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\wrapCommand.js:22:25)
+                    at Element.elementErrorHandlerCallbackFn
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at Element.wrapCommandFn
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\wrapCommand.js:18:24)
+                    at Element.elementErrorHandlerCallback
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.getCSSProperty
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\webdriverio\build\commands\element\getCSSProperty.js:11:31)
+                    at Context.getCSSProperty
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:39:24)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

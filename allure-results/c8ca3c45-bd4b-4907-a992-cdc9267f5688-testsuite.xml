@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565536778379' stop='1565536786157'>
+    <name>Design</name>
+    <title>Design</title>
+    <test-cases>
+        <test-case start='1565536778380' status='failed' stop='1565536784435'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565536778385' status='passed' stop='1565536784358'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='196653f5-81ac-498a-8766-aea996bb5376-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565536784361' status='passed' stop='1565536784390'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='041cae11-f482-4ce3-9920-649f26d902da-attachment.json'
+                                    type='application/json' size='52'/>
+                        <attachment title='Response' source='ff7de920-3757-4de4-aff1-d31e4c80cf31-attachment.json'
+                                    type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565536784396' status='passed' stop='1565536784423'>
+                    <name>GET /session/:sessionId/element/0.5486498877329264-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.5486498877329264-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='37b0ca97-e325-4a1c-982a-aef2e49b240a-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected { Object (sessionId, elementId, ...) } to equal true</message>
+                <stack-trace>AssertionError: expected { Object (sessionId, elementId, ...) } to equal true
+                    at Context.equal
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:11:16)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565536784436' status='passed' stop='1565536786066'>
+            <name>button "Services" is apear</name>
+            <title>button "Services" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565536784438' status='passed' stop='1565536785958'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9568f56c-9bbe-4c95-9b14-9e28377afc1d-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565536785959' status='passed' stop='1565536785992'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9c30c628-5bfd-426f-84ce-b681992765e1-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='e36510a4-5e25-44eb-b73d-f22fd58ff340-attachment.json'
+                                    type='application/json' size='1193'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565536786040' status='passed' stop='1565536786064'>
+                    <name>GET /session/:sessionId/element/0.6285307638008377-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.6285307638008377-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='15309877-89c7-482d-9a64-972f0eab3dd8-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565536786067' status='broken' stop='1565536786156'>
+            <name>button "Work" is apear</name>
+            <title>button "Work" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565536786067' status='passed' stop='1565536786084'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='232b629e-5957-4a3f-b325-bcaa8f580eeb-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='c51a129f-5f9c-444c-8cdc-02b04daaee5b-attachment.json'
+                                    type='application/json' size='1193'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565536786127' status='passed' stop='1565536786155'>
+                    <name>GET /session/:sessionId/element/0.6285307638008377-2/displayed</name>
+                    <title>GET /session/:sessionId/element/0.6285307638008377-2/displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>waitForDisplayed is not defined</message>
+                <stack-trace>ReferenceError: waitForDisplayed is not defined
+                    at Context.waitForDisplayed
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:25:9)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

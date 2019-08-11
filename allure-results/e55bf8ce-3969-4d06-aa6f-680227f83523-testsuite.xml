@@ -1,0 +1,192 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565537415706' stop='1565537426311'>
+    <name>Design</name>
+    <title>Design</title>
+    <test-cases>
+        <test-case start='1565537415707' status='passed' stop='1565537422020'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565537415713' status='passed' stop='1565537421956'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='caeec6f0-7101-40f5-80bc-e1e507a77f4e-attachment.json'
+                                    type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565537421958' status='passed' stop='1565537421987'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1cdc0f22-ae2d-4639-81ea-5014dc57148a-attachment.json'
+                                    type='application/json' size='52'/>
+                        <attachment title='Response' source='a6c07c28-9de2-46f6-9ff1-fa7f9820e814-attachment.json'
+                                    type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565537421993' status='passed' stop='1565537422018'>
+                    <name>GET /session/:sessionId/element/0.07179860520421233-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.07179860520421233-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='db548fa6-6097-4f26-8af8-7a41cfa7a5fc-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565537422021' status='broken' stop='1565537422135'>
+            <name>button "Services" is apear</name>
+            <title>button "Services" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565537422022' status='passed' stop='1565537422050'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6582c7c5-bc9b-4773-8af8-1c78377e2a45-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='78cc3037-594b-4156-aeeb-7dd3ae23d464-attachment.json'
+                                    type='application/json' size='1170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565537422100' status='passed' stop='1565537422127'>
+                    <name>GET /session/:sessionId/element/0.07179860520421233-2/displayed</name>
+                    <title>GET /session/:sessionId/element/0.07179860520421233-2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='d7d7a937-e9b0-4a4d-91fc-65470df6f661-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>logo is not defined</message>
+                <stack-trace>ReferenceError: logo is not defined
+                    at Context.logo
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:17:21)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565537422135' status='broken' stop='1565537424235'>
+            <name>button "Work" is apear</name>
+            <title>button "Work" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565537422136' status='passed' stop='1565537422153'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3e70f6e7-cd41-4865-b58c-0f0f067d3bfb-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='2553c880-bc9b-44a6-b55e-aa440f8efb17-attachment.json'
+                                    type='application/json' size='1170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565537422186' status='passed' stop='1565537422222'>
+                    <name>GET /session/:sessionId/element/0.07179860520421233-6/displayed</name>
+                    <title>GET /session/:sessionId/element/0.07179860520421233-6/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='775eb1f8-bf5e-49d1-a6f1-5322386850cc-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>logo is not defined</message>
+                <stack-trace>ReferenceError: logo is not defined
+                    at Context.logo
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:25:21)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565537424235' status='broken' stop='1565537426310'>
+            <name>button "Insights" is apear</name>
+            <title>button "Insights" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565537424235' status='passed' stop='1565537424251'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='163a5376-8703-4014-a944-4be62412c8f5-attachment.json'
+                                    type='application/json' size='65'/>
+                        <attachment title='Response' source='d903a0bf-dc6e-4418-9b26-d8ddd63cb1c8-attachment.json'
+                                    type='application/json' size='1170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565537424280' status='passed' stop='1565537424309'>
+                    <name>GET /session/:sessionId/element/0.07179860520421233-9/displayed</name>
+                    <title>GET /session/:sessionId/element/0.07179860520421233-9/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='60f2dd85-90e7-4584-ba2c-84ba9477da64-attachment.json'
+                                    type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>logo is not defined</message>
+                <stack-trace>ReferenceError: logo is not defined
+                    at Context.logo
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\test\specs/global-header.js:33:21)
+                    at Promise
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync
+                    (C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\GlobalLogik\node_modules\@wdio\sync\build\index.js:136:70
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
