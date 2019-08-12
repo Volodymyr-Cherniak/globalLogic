@@ -22,7 +22,7 @@ exports.config = {
 
     bail: 0,
 
-    baseUrl: ' https://www.globallogic.com',
+    baseUrl: ' https://www.globallogic.com/en',
 
     waitforTimeout: 10000,
 

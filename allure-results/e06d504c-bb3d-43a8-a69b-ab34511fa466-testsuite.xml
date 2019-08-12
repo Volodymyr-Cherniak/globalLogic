@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565588178013' stop='1565588178277'>
+    <name>verify CSS design btn "Services"</name>
+    <title>verify CSS design btn "Services"</title>
+    <test-cases>
+        <test-case start='1565588178014' status='passed' stop='1565588178071'>
+            <name>verify btn "Services" font-family</name>
+            <title>verify btn "Services" font-family</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565588178014' status='passed' stop='1565588178028'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e5a4a50e-6824-4ecb-8034-79d25cb16ba3-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='a234a64d-2302-4c5a-9843-0179a8606ca5-attachment.json' type='application/json' size='1194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565588178053' status='passed' stop='1565588178070'>
+                    <name>GET /session/:sessionId/element/0.0418954751441909-2/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.0418954751441909-2/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='7323579d-2641-405b-bd2e-80a847df1f0f-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565588178071' status='passed' stop='1565588178136'>
+            <name>verify btn "Services" font-size</name>
+            <title>verify btn "Services" font-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565588178072' status='passed' stop='1565588178084'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='93a1fa27-4ef3-46f5-99fd-454171876c23-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='78ee7e37-3fa8-4750-88e3-8cfe397dc9c3-attachment.json' type='application/json' size='1194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565588178113' status='passed' stop='1565588178136'>
+                    <name>GET /session/:sessionId/element/0.0418954751441909-2/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.0418954751441909-2/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='dc3334fe-e856-4376-9572-06bcc9df7929-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565588178137' status='passed' stop='1565588178203'>
+            <name>verify btn "Services" color</name>
+            <title>verify btn "Services" color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565588178137' status='passed' stop='1565588178149'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ab0db251-3194-4d80-bf4e-f4ec9fd6ed10-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='d7356383-901b-4852-aeb7-45f90d835fea-attachment.json' type='application/json' size='1194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565588178178' status='passed' stop='1565588178200'>
+                    <name>GET /session/:sessionId/element/0.0418954751441909-2/css/color</name>
+                    <title>GET /session/:sessionId/element/0.0418954751441909-2/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='e44cde37-7131-45cc-b777-8533c27192ac-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565588178203' status='broken' stop='1565588178277'>
+            <name>verify btn "Services" focus color</name>
+            <title>verify btn "Services" focus color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565588178203' status='passed' stop='1565588178221'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cab00c02-4771-4cdc-95e3-45b47de38a5b-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='4718b484-edcd-473a-953a-dda87eec9e75-attachment.json' type='application/json' size='1194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565588178256' status='passed' stop='1565588178268'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='b76edc90-b949-4e0d-bc55-33edb206c8c0-attachment.json' type='application/json' size='263'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>btnFocused.getCSSProperty is not a function</message>
+                <stack-trace>TypeError: btnFocused.getCSSProperty is not a function
+                    at Context.getCSSProperty (C:\Users\Professional\WebstormProjects\globalLogic\test\specs/nav-bar.js:57:33)
+                    at Promise (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:136:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

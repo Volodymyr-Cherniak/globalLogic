@@ -31,33 +31,46 @@ describe('Header btn and logo', function () {
     })
 })
 
-describe('werify CSS design btn "Services"', function () {
+describe('verify CSS design btn "Services"', function () {
 
-    it('werify btn "Services" font-family', function () {
-        browser.url('/');
+    it('verify btn "Services" font-family', function () {
         let btn = $$(sel.btnHeader)[0];
         let actual = btn.getCSSProperty('font-family').value;
         assert.equal(actual, exp.fontFamily);
     })
 
-    it('werify btn "Services" font-size', function () {
+    it('verify btn "Services" font-weight', function () {
         let btn = $$(sel.btnHeader)[0];
         let actual = btn.getCSSProperty('font-weight').value;
-        //console.log(actual);
         assert.equal(actual, exp.fontWeight);
     })
 
-    it('werify btn "Services" color', function () {
+    it('verify btn "Services" color', function () {
         let btn = $$(sel.btnHeader)[0];
         let actual = btn.getCSSProperty('color').value;
         assert.equal(actual, exp.color);
+    })
+
+    it('verify btn "Services" focus font-size', function () {
+        let btn = $$(sel.btnHeader)[0];
+        btn.moveTo();
+        let actual = btn.getCSSProperty('font-size').parsed.value;
+        console.log(actual);
+        assert.equal(actual, exp.fontSize);
+    })
+
+    it('verify btn "Services" focus color', function () {
+        let btn = $$(sel.btnHeader)[0];
+        btn.moveTo();
+        let actual = btn.getCSSProperty('color').value;
+        assert.equal(actual, exp.colorFocus);
     })
 
 })
 
 describe('werify btns', function () {
 
-    it('button "Services" linck is worked', function () {
+    it('button "Services" link is working', function () {
         let btn = $$(sel.btnHeader)[0];
         btn.click();
         let btn2 = $$(sel.btnServisesOfering)[0];

@@ -1,0 +1,9 @@
+{
+  "script": "return (function _default(elem) {\r\n  return elem === document.activeElement;\r\n}).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "0.8236450664139829-2",
+      "ELEMENT": "0.8236450664139829-2"
+    }
+  ]
+}
