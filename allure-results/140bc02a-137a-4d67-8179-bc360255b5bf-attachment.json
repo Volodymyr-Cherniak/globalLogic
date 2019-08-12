@@ -1,0 +1,4 @@
+{
+  "script": "return { scrollX: this.scrollX, scrollY: this.scrollY };",
+  "args": []
+}

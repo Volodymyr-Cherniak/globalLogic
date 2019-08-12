@@ -1,0 +1,253 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565593109936' stop='1565593110240'>
+    <name>verify CSS design btn "Services"</name>
+    <title>verify CSS design btn "Services"</title>
+    <test-cases>
+        <test-case start='1565593109937' status='passed' stop='1565593109984'>
+            <name>verify btn "Services" font-family</name>
+            <title>verify btn "Services" font-family</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1565593109937' status='passed' stop='1565593109956'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d935f5b2-ff9a-4e26-9790-375438123f6b-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='c863aa8b-8b99-421f-b407-d111ab6d08e5-attachment.json' type='application/json' size='2277'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593109974' status='passed' stop='1565593109983'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-family</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='1e99dbad-380a-4ff4-9089-39d4042ccc15-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565593109984' status='passed' stop='1565593110025'>
+            <name>verify btn "Services" font-weight</name>
+            <title>verify btn "Services" font-weight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1565593109985' status='passed' stop='1565593109996'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d9751605-b139-4fac-b7c1-4ddea1007fe0-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='b119f416-fce9-48e2-8839-d4cb11902a21-attachment.json' type='application/json' size='2277'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110018' status='passed' stop='1565593110024'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='494b9bb4-8882-417b-983e-12a47de584ea-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1565593110025' status='failed' stop='1565593110069'>
+            <name>verify btn "Services" color</name>
+            <title>verify btn "Services" color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1565593110025' status='passed' stop='1565593110035'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cec252f8-eb55-4dfd-9011-2f8b777e5c7b-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='7db4103d-60f1-4295-bd8c-f36b0e8a2e71-attachment.json' type='application/json' size='2277'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110051' status='passed' stop='1565593110057'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/color</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='ce3eddd2-0301-472c-bb4e-e5eb4d0bb74f-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'rgb(255,255,255)' to equal 'rgba(255,255,255,1)'</message>
+                <stack-trace>AssertionError: expected 'rgb(255,255,255)' to equal 'rgba(255,255,255,1)'
+                    at Context.equal (C:\Users\Professional\WebstormProjects\globalLogic\test\specs/nav-bar.js:50:16)
+                    at Promise (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:136:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565593110070' status='failed' stop='1565593110142'>
+            <name>verify btn "Services" focus font-size</name>
+            <title>verify btn "Services" focus font-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1565593110070' status='passed' stop='1565593110080'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cf0d5686-0963-46a4-8be3-3e2bbd738382-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='6e295185-4730-4893-8314-05fe6a220b5d-attachment.json' type='application/json' size='2277'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110095' status='passed' stop='1565593110102'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/rect</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='1a29c8b8-90be-4203-a237-f9fc4522fe79-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110102' status='passed' stop='1565593110112'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='140bc02a-137a-4d67-8179-bc360255b5bf-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='d4c39d78-9a7f-47fb-a1d6-1488a12a7a80-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110112' status='passed' stop='1565593110128'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='871040b6-6df5-4606-be2c-2cb4bc18c2d8-attachment.json' type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110128' status='passed' stop='1565593110134'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1565593110135' status='passed' stop='1565593110141'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-size</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='7ddb83c5-c1a2-4fb0-ab29-03b0ad3b3010-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 14 to equal 12.4</message>
+                <stack-trace>AssertionError: expected 14 to equal 12.4
+                    at Context.equal (C:\Users\Professional\WebstormProjects\globalLogic\test\specs/nav-bar.js:58:16)
+                    at Promise (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:136:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1565593110143' status='failed' stop='1565593110239'>
+            <name>verify btn "Services" focus color</name>
+            <title>verify btn "Services" focus color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+            </parameters>
+            <steps>
+                <step start='1565593110143' status='passed' stop='1565593110157'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d6b356e2-100e-4998-b9e5-edd176338953-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='3c21edc5-3735-4b72-98bc-958b6ec80922-attachment.json' type='application/json' size='2277'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110178' status='passed' stop='1565593110188'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/rect</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='1ebc5dfe-c999-4281-9f59-2b13445d7cd4-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110188' status='passed' stop='1565593110206'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='53a23c46-435e-4692-80cf-4115a8065932-attachment.json' type='application/json' size='88'/>
+                        <attachment title='Response' source='820fa0a0-ffe3-43d0-9d2f-ad7f8ccb50e0-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110206' status='passed' stop='1565593110222'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='8b069908-8935-4549-9e7e-e0ef150d6cbd-attachment.json' type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565593110222' status='passed' stop='1565593110231'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1565593110231' status='passed' stop='1565593110238'>
+                    <name>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/color</name>
+                    <title>GET /session/:sessionId/element/826575a7-d547-4b16-87fc-27d8a0cf622d/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='a9d8d9e6-1323-461e-b4c0-f1056f43554d-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'rgb(219,88,0)' to equal 'rgba(219,88,0,1)'</message>
+                <stack-trace>AssertionError: expected 'rgb(219,88,0)' to equal 'rgba(219,88,0,1)'
+                    at Context.equal (C:\Users\Professional\WebstormProjects\globalLogic\test\specs/nav-bar.js:65:16)
+                    at Promise (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:136:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

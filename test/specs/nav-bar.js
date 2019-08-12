@@ -46,22 +46,23 @@ describe('verify CSS design btn "Services"', function () {
 
     it('verify btn "Services" color', function () {
         let btn = $$(sel.btnHeader)[0];
-        let actual = btn.getCSSProperty('color').value;
+        let actual = btn.getCSSProperty('color').parsed.hex;
         assert.equal(actual, exp.color);
     })
 
     it('verify btn "Services" focus font-size', function () {
+        browser.setWindowSize(1920, 1080)
         let btn = $$(sel.btnHeader)[0];
         btn.moveTo();
         let actual = btn.getCSSProperty('font-size').parsed.value;
-        console.log(actual);
         assert.equal(actual, exp.fontSize);
     })
 
     it('verify btn "Services" focus color', function () {
         let btn = $$(sel.btnHeader)[0];
         btn.moveTo();
-        let actual = btn.getCSSProperty('color').value;
+        let actual = btn.getCSSProperty('color').parsed.hex;
+        // console.log(actual)
         assert.equal(actual, exp.colorFocus);
     })
 

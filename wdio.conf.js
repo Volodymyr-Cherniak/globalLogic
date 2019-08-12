@@ -13,8 +13,12 @@ exports.config = {
     capabilities: [
         {
             maxInstances: 5,
-            browserName: 'chrome',
-            //udeDriverLogs: ['bugreport', 'server'],
+            browserName: 'chrome'
+        },
+
+        {
+            maxInstances: 5,
+            browserName: 'firefox'
         }
     ],
 
