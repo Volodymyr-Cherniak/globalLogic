@@ -26,7 +26,6 @@ describe('Header btn and logo', function () {
     it('button "Insights" is apear', function () {
         let btn = $$(sel.btnHeader)[7];
         let actual = btn.isDisplayed();
-        browser.pause(2000);
         assert.equal(actual, true);
     })
 })
