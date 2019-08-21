@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1565599625276' stop='1565599627680'>
+    <name>werify btns</name>
+    <title>werify btns</title>
+    <test-cases>
+        <test-case start='1565599625276' status='passed' stop='1565599627680'>
+            <name>button "Services" link is working</name>
+            <title>button "Services" link is working</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1565599625276' status='passed' stop='1565599625296'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='051ed46b-ea42-4a1c-88fe-9fdcb3eb7f19-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='4203f50c-c349-493b-8401-db8b837396d9-attachment.json' type='application/json' size='1194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565599625331' status='passed' stop='1565599627515'>
+                    <name>POST /session/:sessionId/element/0.7410811536509516-2/click</name>
+                    <title>POST /session/:sessionId/element/0.7410811536509516-2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1565599627515' status='passed' stop='1565599627576'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b8ce6072-d686-4081-a1c3-323e378e4062-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='c5930ca9-9052-45d5-b5f8-da72fcc111db-attachment.json' type='application/json' size='434'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1565599627599' status='passed' stop='1565599627654'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c02abfca-78c2-40a9-975d-d1a9a48974c8-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='03f56231-8e4c-42e8-983b-3f6d4d1f267b-attachment.json' type='application/json' size='434'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

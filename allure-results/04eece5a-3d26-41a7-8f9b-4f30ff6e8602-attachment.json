@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"global-nav-list-link\") and normalize-space() = \"Insights\"]"
+}

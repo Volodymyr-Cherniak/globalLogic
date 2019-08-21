@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"subnav-list-link\") and normalize-space() = \"Services Offerings\"]"
+}

@@ -16,10 +16,10 @@ exports.config = {
             browserName: 'chrome'
         },
 
-        {
-            maxInstances: 5,
-            browserName: 'firefox'
-        }
+        // {
+        //     maxInstances: 5,
+        //     browserName: 'firefox'
+        // }
     ],
 
     logLevel: 'info',

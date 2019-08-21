@@ -1,0 +1,152 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566393038537' stop='1566393044697'>
+    <name>Header btn and logo</name>
+    <title>Header btn and logo</title>
+    <test-cases>
+        <test-case start='1566393038538' status='passed' stop='1566393044445'>
+            <name>logo "GlobalLogic" is apears</name>
+            <title>logo "GlobalLogic" is apears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566393038542' status='passed' stop='1566393044369'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa56a4b4-6a08-4dfb-9f58-6b139659b671-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1566393044372' status='passed' stop='1566393044404'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ee73843e-f800-400a-8a53-38b8a1733f57-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='b5a05c76-057d-47f0-988c-019f0cab75f0-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1566393044414' status='passed' stop='1566393044442'>
+                    <name>GET /session/:sessionId/element/0.36010346847347274-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.36010346847347274-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='836e0685-f4d8-4cd4-8ac5-cc22b8dee24a-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566393044446' status='passed' stop='1566393044546'>
+            <name>button "Services" is apear</name>
+            <title>button "Services" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566393044447' status='passed' stop='1566393044474'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5abfa5b9-3deb-4050-b43f-7c8488d2a001-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='72fe9286-1304-4f63-a179-991cf0b4906f-attachment.json' type='application/json' size='1170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1566393044521' status='passed' stop='1566393044546'>
+                    <name>GET /session/:sessionId/element/0.36010346847347274-2/displayed</name>
+                    <title>GET /session/:sessionId/element/0.36010346847347274-2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='ba76c3a6-6616-4594-8418-cb75ad9f2ee7-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566393044546' status='failed' stop='1566393044615'>
+            <name>button "Work" is apear</name>
+            <title>button "Work" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566393044547' status='passed' stop='1566393044580'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2fe41290-c9c3-4251-b6b1-ca9927fa5858-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='bd87319d-4d7f-4e3f-910a-3e0929a9dfac-attachment.json' type='application/json' size='316'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1566393044583' status='passed' stop='1566393044600'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='18f92414-06c6-4d48-95ba-d3741ac5889b-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='5ea3df8d-6904-45fa-b348-2f3215af6a65-attachment.json' type='application/json' size='316'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.equal (C:\Users\Professional\WebstormProjects\globalLogic\test\specs/nav-bar.js:23:16)
+                    at Promise (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:55:22)
+                    at Context.executeSync (C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:53:10)
+                    at C:\Users\Professional\WebstormProjects\globalLogic\node_modules\@wdio\sync\build\index.js:136:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566393044616' status='passed' stop='1566393044696'>
+            <name>button "Insights" is apear</name>
+            <title>button "Insights" is apear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566393044617' status='passed' stop='1566393044633'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='65a04be1-a598-465f-aa74-7332bc7a6835-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e373f88f-9440-4849-b2b4-b5849beaa0a2-attachment.json' type='application/json' size='1170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1566393044667' status='passed' stop='1566393044696'>
+                    <name>GET /session/:sessionId/element/0.36010346847347274-9/displayed</name>
+                    <title>GET /session/:sessionId/element/0.36010346847347274-9/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='ff9a88b7-66be-4b3e-ae4d-77750b1c4966-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
